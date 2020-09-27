@@ -31,3 +31,8 @@ googleanalytics = "UA-159846793-1"
     icon = "fab fa-linkedin fa-2x"
     weight = 4
     url = "https://www.linkedin.com/in/paulosalgado"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 5
+    url = "https://twitter.com/pjosalgado"
