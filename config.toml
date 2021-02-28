@@ -27,6 +27,11 @@ googleanalytics = "UA-159846793-1"
     weight = 3
     url = "https://gitlab.com/paulosalgado"
 [[params.social]]
+    name = "Keybase"
+    icon = "fab fa-keybase fa-2x"
+    weight = 3
+    url = "https://keybase.io/paulosalgado"
+[[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin fa-2x"
     weight = 4
