@@ -1,38 +1,58 @@
-title = "Paulo Salgado - Software Developer"
+title = "Paulo Salgado"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
-
-googleanalytics = "UA-159846793-1"
 
 [params]
     author = "Paulo Salgado"
     info = "Software Developer"
     description = "Hello, World!"
-    avatarurl = "images/avatar.jpg"
+    avatarurl = "images/avatar.png"
+    favicon_16 = "images/favicon-16.png"
+    favicon_32 = "images/favicon-32.png"
+    colorScheme = "auto"
 
 [[params.social]]
     name = "Email"
     icon = "fas fa-envelope fa-2x"
     weight = 1
     url = "mailto:pjosalgado@gmail.com"
+
 [[params.social]]
     name = "GitHub"
     icon = "fab fa-github fa-2x"
     weight = 2
     url = "https://github.com/paulosalgado"
+
 [[params.social]]
     name = "GitLab"
     icon = "fab fa-gitlab fa-2x"
     weight = 3
     url = "https://gitlab.com/paulosalgado"
+
 [[params.social]]
     name = "Keybase"
     icon = "fab fa-keybase fa-2x"
-    weight = 3
+    weight = 4
     url = "https://keybase.io/paulosalgado"
+
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin fa-2x"
-    weight = 4
+    weight = 5
     url = "https://www.linkedin.com/in/paulosalgado"
+
+[languages.en]
+    languageName = "en"
+
+[languages.pt-br]
+    languageName = "pt-br"
+
+[languages.pt-br.params]
+    info = "Desenvolvedor de Software"
+
+[languages.es]
+    languageName = "es"
+
+[languages.es.params]
+    info = "Desarrollador de Software"
