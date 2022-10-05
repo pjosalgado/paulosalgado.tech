@@ -22,13 +22,13 @@ defaultcontentlanguage = "en"
     name = "GitHub"
     icon = "fab fa-github fa-2x"
     weight = 2
-    url = "https://github.com/paulosalgado"
+    url = "https://github.com/pjosalgado"
 
 [[params.social]]
     name = "GitLab"
     icon = "fab fa-gitlab fa-2x"
     weight = 3
-    url = "https://gitlab.com/paulosalgado"
+    url = "https://gitlab.com/pjosalgado"
 
 [[params.social]]
     name = "Keybase"
@@ -40,7 +40,7 @@ defaultcontentlanguage = "en"
     name = "LinkedIn"
     icon = "fab fa-linkedin fa-2x"
     weight = 5
-    url = "https://www.linkedin.com/in/paulosalgado"
+    url = "https://www.linkedin.com/in/pjosalgado"
 
 [languages.en]
     languageName = "en"
