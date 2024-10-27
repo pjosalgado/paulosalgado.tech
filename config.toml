@@ -34,7 +34,7 @@ defaultcontentlanguage = "en"
     name = "Keybase"
     icon = "fab fa-keybase fa-2x"
     weight = 4
-    url = "https://keybase.io/paulosalgado"
+    url = "https://keybase.io/pjosalgado"
 
 [[params.social]]
     name = "LinkedIn"
