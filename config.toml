@@ -1,58 +1,52 @@
-title = "Paulo Salgado"
-theme = "hugo-coder"
-languagecode = "en"
 defaultcontentlanguage = "en"
+languagecode = "en"
+theme = "hugo-coder"
+title = "Paulo Salgado"
 
 [params]
-    author = "Paulo Salgado"
-    info = "Software Developer"
-    description = "Hello, World!"
-    avatarurl = "images/avatar.png"
-    favicon_16 = "images/favicon-16.png"
-    favicon_32 = "images/favicon-32.png"
-    colorScheme = "auto"
+  author = "Paulo Salgado"
+  avatarurl = "images/avatar.png"
+  colorScheme = "auto"
+  description = "Hello, World!"
+  favicon_16 = "images/favicon-16.png"
+  favicon_32 = "images/favicon-32.png"
+  info = "Software Developer"
 
-[[params.social]]
-    name = "Email"
+  [[params.social]]
     icon = "fas fa-envelope fa-2x"
-    weight = 1
+    name = "E-mail"
     url = "mailto:pjosalgado@gmail.com"
+    weight = 1
 
-[[params.social]]
-    name = "GitHub"
+  [[params.social]]
     icon = "fab fa-github fa-2x"
-    weight = 2
+    name = "GitHub"
     url = "https://github.com/pjosalgado"
+    weight = 2
 
-[[params.social]]
-    name = "GitLab"
+  [[params.social]]
     icon = "fab fa-gitlab fa-2x"
-    weight = 3
+    name = "GitLab"
     url = "https://gitlab.com/pjosalgado"
+    weight = 3
 
-[[params.social]]
-    name = "Keybase"
+  [[params.social]]
     icon = "fab fa-keybase fa-2x"
-    weight = 4
+    name = "Keybase"
     url = "https://keybase.io/pjosalgado"
+    weight = 4
 
-[[params.social]]
-    name = "LinkedIn"
+  [[params.social]]
     icon = "fab fa-linkedin fa-2x"
-    weight = 5
+    name = "LinkedIn"
     url = "https://www.linkedin.com/in/pjosalgado"
+    weight = 5
 
-[languages.en]
-    languageName = "en"
+[languages]
+  [languages.en]
+    languageName = ":uk:"
 
-[languages.pt-br]
-    languageName = "pt-br"
-
-[languages.pt-br.params]
-    info = "Desenvolvedor de Software"
-
-[languages.es]
-    languageName = "es"
-
-[languages.es.params]
-    info = "Desarrollador de Software"
+  [languages.pt-br]
+    languageName = ":brazil:"
+    [languages.pt-br.params]
+      info = "Desenvolvedor de Software"
